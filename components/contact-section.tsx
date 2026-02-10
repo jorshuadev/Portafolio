@@ -47,7 +47,7 @@ export function ContactSection() {
             size="lg"
             className="mt-8 bg-primary text-primary-foreground hover:bg-primary/90"
           >
-            <a href="jorshua.dev@gmail.com">
+            <a href="mailto:jorshua.dev@gmail.com">
               <Mail className="mr-2 h-5 w-5" />
               Enviar un correo
             </a>
