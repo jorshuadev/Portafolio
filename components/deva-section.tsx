@@ -60,14 +60,14 @@ export function DevaSection() {
                 <div className="overflow-hidden rounded-xl bg-secondary">
                   <div className="flex aspect-square items-center justify-center">
                     <div className="text-center text-muted-foreground/40">
-                      <img src="/images/Deva1.jpg" alt="personal" />
+                      <img src="/images/deva1.jpg" alt="personal" />
                     </div>
                   </div>
                 </div>
                 <div className="overflow-hidden rounded-xl bg-secondary">
                   <div className="flex aspect-square items-center justify-center">
                     <div className="text-center text-muted-foreground/40">
-                      <img src="/images/Deva2.jpg" alt="personal" />
+                      <img src="/images/deva2.jpg" alt="personal" />
                     </div>
                   </div>
                 </div>

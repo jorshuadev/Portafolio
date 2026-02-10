@@ -61,7 +61,7 @@ export function AboutSection() {
             <div className="aspect-[4/5] overflow-hidden rounded-2xl border-2 border-border bg-secondary">
               <div className="flex h-full w-full items-center justify-center">
                 <div className="text-center text-muted-foreground/50">
-                  <img src="/images/personal.jpg" alt="personal" />
+                  <img src="/images/Personal.jpg" alt="personal" />
                 </div>
               </div>
             </div>
