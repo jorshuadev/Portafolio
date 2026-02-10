@@ -1,17 +1,17 @@
-"use client"
+"use client";
 
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
+} from "@/components/ui/accordion";
 
 const faqs = [
   {
     question: "Que experiencia profesional tienes?",
     answer:
-      "He trabajado como Fullstack Junior en un sistema ERP empresarial, donde desarrolle modulos completos tanto en frontend (React) como en backend (Laravel), manejando bases de datos SQL y APIs REST.",
+      "He trabajado como Fullstack Junior en un sistema ERP empresarial pero esos proyectos son privados, donde desarrolle modulos completos tanto en frontend (React) como en backend (Laravel), manejando bases de datos SQL y APIs REST.",
   },
   {
     question: "Que tecnologias dominas?",
@@ -21,7 +21,7 @@ const faqs = [
   {
     question: "Trabajas en equipo?",
     answer:
-      "Definitivamente. Como presidente de DEVA, una agrupacion de mas de 20 estudiantes, coordino equipos multidisciplinarios en proyectos de desarrollo de videojuegos y arte digital. La colaboracion es parte fundamental de mi flujo de trabajo.",
+      "Definitivamente. Como presidente de DEVA, una agrupacion de mas de 50 estudiantes, coordino equipos multidisciplinarios en proyectos de desarrollo de videojuegos y arte digital. La colaboracion es parte fundamental de mi flujo de trabajo.",
   },
   {
     question: "Estas disponible para trabajar?",
@@ -31,9 +31,9 @@ const faqs = [
   {
     question: "Que tipo de proyectos te interesan?",
     answer:
-      "Me interesan proyectos de desarrollo web, aplicaciones empresariales, plataformas SaaS y por supuesto, el desarrollo de videojuegos. Disfruto los retos tecnicos que me permiten aprender nuevas tecnologias y crecer profesionalmente.",
+      "Me interesan proyectos de desarrollo web, aplicaciones empresariales y por supuesto, el desarrollo de videojuegos. Disfruto los retos tecnicos que me permiten aprender nuevas tecnologias y crecer profesionalmente.",
   },
-]
+];
 
 export function FaqSection() {
   return (
@@ -66,5 +66,5 @@ export function FaqSection() {
         </Accordion>
       </div>
     </section>
-  )
+  );
 }

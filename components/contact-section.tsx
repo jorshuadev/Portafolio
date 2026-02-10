@@ -1,26 +1,26 @@
-import { Mail, Github, Instagram, Gamepad2, ArrowUpRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Mail, Github, Instagram, Gamepad2, ArrowUpRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "#",
+    href: "https://github.com/jorshuadev",
     username: "@jorshua",
   },
   {
     icon: Instagram,
     label: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/jorshua_dev/",
     username: "@jorshua.dev",
   },
   {
     icon: Gamepad2,
     label: "Itch.io",
-    href: "#",
+    href: "https://jorshuadev.itch.io/",
     username: "jorshua",
   },
-]
+];
 
 export function ContactSection() {
   return (
@@ -37,13 +37,17 @@ export function ContactSection() {
 
         <div className="text-center">
           <p className="mx-auto max-w-md leading-relaxed text-muted-foreground">
-            Si quieres hablar sobre un proyecto, una colaboracion o simplemente 
-            saludar, no dudes en contactarme. Estoy siempre abierto a nuevas 
+            Si quieres hablar sobre un proyecto, una colaboracion o simplemente
+            saludar, no dudes en contactarme. Estoy siempre abierto a nuevas
             oportunidades.
           </p>
 
-          <Button asChild size="lg" className="mt-8 bg-primary text-primary-foreground hover:bg-primary/90">
-            <a href="mailto:tu@email.com">
+          <Button
+            asChild
+            size="lg"
+            className="mt-8 bg-primary text-primary-foreground hover:bg-primary/90"
+          >
+            <a href="jorshua.dev@gmail.com">
               <Mail className="mr-2 h-5 w-5" />
               Enviar un correo
             </a>
@@ -59,8 +63,12 @@ export function ContactSection() {
               >
                 <link.icon className="h-5 w-5 text-muted-foreground transition-colors group-hover:text-primary" />
                 <div className="text-left">
-                  <p className="text-sm font-medium text-card-foreground">{link.label}</p>
-                  <p className="text-xs text-muted-foreground">{link.username}</p>
+                  <p className="text-sm font-medium text-card-foreground">
+                    {link.label}
+                  </p>
+                  <p className="text-xs text-muted-foreground">
+                    {link.username}
+                  </p>
                 </div>
                 <ArrowUpRight className="h-4 w-4 text-muted-foreground/40 transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary" />
               </a>
@@ -69,5 +77,5 @@ export function ContactSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
