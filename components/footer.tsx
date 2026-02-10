@@ -1,4 +1,4 @@
-import { Github, Instagram, Gamepad2 } from "lucide-react"
+import { Github, Instagram, Gamepad2 } from "lucide-react";
 
 export function Footer() {
   return (
@@ -15,21 +15,21 @@ export function Footer() {
 
         <div className="flex items-center gap-4">
           <a
-            href="#"
+            href="https://github.com/jorshuadev"
             className="text-muted-foreground transition-colors hover:text-primary"
             aria-label="GitHub"
           >
             <Github className="h-4 w-4" />
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/jorshua_dev/"
             className="text-muted-foreground transition-colors hover:text-primary"
             aria-label="Instagram"
           >
             <Instagram className="h-4 w-4" />
           </a>
           <a
-            href="#"
+            href="https://jorshuadev.itch.io/"
             className="text-muted-foreground transition-colors hover:text-primary"
             aria-label="Itch.io"
           >
@@ -38,9 +38,10 @@ export function Footer() {
         </div>
 
         <p className="text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} Jorshua Jimenez. Todos los derechos reservados.
+          &copy; {new Date().getFullYear()} Jorshua Jimenez. Todos los derechos
+          reservados.
         </p>
       </div>
     </footer>
-  )
+  );
 }
